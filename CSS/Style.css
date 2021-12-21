@@ -1,0 +1,586 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/* navbar */
+.tes{
+    height: 50px;
+    width: 150px;
+    
+}
+
+.nav-link{
+    margin-right: 15px;
+    color: rgb(0, 0, 0) !important;
+    
+}
+
+.nav-link:hover{
+    color:rgb(255, 0, 0) !important;
+}
+
+.nav-link:hover::after{
+    content: "";
+    display: block;
+    border-bottom: 3px solid rgb(255, 30, 0);
+    width: 100%;
+    margin: auto;
+    margin-bottom: -8px;
+} 
+
+/* end navbar
+
+
+
+/* jumbotron */
+.jumbotron{
+    background-image: url(/Image/jumbo.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.indo{
+    margin-top: 50px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 50px; 
+    color: red;
+}
+
+.sm1{
+    width: 80%;
+    margin-left: 30px;
+    position: relative;
+    -webkit-animation: animasi 1s ease-in-out alternate infinite;
+}
+
+@-webkit-keyframes animasi{
+    from{
+        left: 0px;
+        top: 0px;
+    }
+
+    to{
+        left: 0px;
+        top: 20px;
+    }
+}
+
+.buy{
+    width: 100px;
+}
+
+.btn-danger{
+    border: 2px solid;
+}
+
+.btn-danger:hover{
+    transition: all 0.3s ease-in;
+    color: rgb(255, 0, 0);
+    border-color:  rgb(255, 0, 0);
+    background-color: white;
+}
+/* end jumbotron */
+
+
+/* register */
+.info-register{
+    background-color: white;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    margin-top: 13px;
+    z-index: 3;
+}
+
+.bka{
+    font-weight: 600;
+    text-align: center;
+    padding-top: 6rem;
+    margin-bottom: 30px;
+}
+
+.ind{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+
+.ketamin{
+    width: 250px !important;
+    
+}
+
+.reg{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 30px;
+    width: 150px;
+}
+
+.alamat{
+    margin-top: 20px;
+    margin-left: 95px;
+    margin-right: 50px;
+    
+}
+/* end register */
+
+
+/* deskripsi */
+.deskripsi{
+    margin-top: 60px;
+}
+
+.kartu{
+    width: 50%;
+    margin-left: 50px;
+}
+
+.card{
+    margin-bottom: 30px;
+    margin-left: 50px;
+}   
+
+.card:hover{
+    background-color:#f56a6a;
+    transition: all 0.3s ease-in;
+    color: white;
+}
+
+
+.pink{
+    position: relative;
+    -webkit-animation: animasi 1s ease-in-out alternate infinite;
+}
+
+.bda{
+    margin-top: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.deskripsi p{
+    margin-top: 30px;
+}
+
+.tentang{
+    padding-top: 5rem;
+}
+/* end deskripsi */
+
+
+/* fitur */
+.bca{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.icn{
+    width: 50px;
+    margin-right: 30px;
+}
+
+.fitur-list li{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.fitur{
+    margin-left: -20px;
+}
+
+.abt{
+    padding-top: 5rem;
+}
+
+/* end fitur */
+
+/* warna */
+.warna{
+    background-color: #F5F5F5;
+    margin-top: 40px;
+    padding-top: 5rem;
+    height: 800px;
+}
+
+.container h4{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.container h5{
+    font-size: 20px;
+    margin-top: -9px;
+    text-align: center;
+}
+
+/* warna */
+
+
+/* warna produk */
+.slide{
+    margin-top: 40px;
+}
+
+.card-produk{
+    border-radius: 10px;
+    border: 2px solid rgba(245, 106, 121, 0.2);
+    transition: all 0.3s ease-in;
+    background-color:white ;
+}
+
+.card-produk:hover{
+    border:  2px solid #f56a6a; 
+    
+}
+
+
+.testi{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 500;
+    padding-top: 5rem;
+}
+
+.carousel-indicators{
+    top: 100%;
+}
+
+.carousel-control-prev-icon{
+    margin-left: -80px;
+}
+.carousel-control-next-icon{
+    margin-right: -45px;
+}
+
+.carousel-control-next-icon{
+    background-image: url(/Image/right-removebg-.png);
+}
+
+.carousel-control-prev-icon{
+    background-image: url(/Image/right-removebg-\ -\ Copy.png);
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl{
+    padding-left: 20px;
+}
+/* warna produk */
+
+
+
+/* the best */
+.kotak{
+    display: flex;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 15%);
+    padding: 20px ;
+    border-radius: 10px;
+}
+
+.adds{
+    position: relative;
+    margin-top: -50px;
+}
+
+.overlay{
+    position: absolute;
+    background: #f56a6a;
+    width: 100%;
+    height: 67.5%;
+    top: 110px;
+    left: 0;
+    opacity: 0.7;
+    z-index: 100;
+    border-radius: 5px;
+}
+
+.jam{
+    z-index: 200;
+    position: absolute;
+    width: 20%;
+    left: 0;
+    margin-top: 190px;
+    margin-left: 130px;
+}
+
+/* end the best */
+
+
+/* accordion */
+
+.card-acor{
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.card-acor:hover{
+    background-color: #f56a6a;
+    color: white;
+    transition: all 0.7s;
+}
+
+.btn-link{
+    color: black;
+}
+
+.btn-link:hover{
+    color: white;
+    transition: all 0.5s;
+}
+
+.accordion{
+    margin-top: 30px;
+}
+
+.akor-warna{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 4px;
+    color: #ff414d;
+}
+/* end acordion */
+
+
+/* footer */
+footer{
+    background-color: #ffffff;
+    margin-top: 30px;
+    height: 110px;
+    padding-top: 10px;
+    box-shadow: 0px 5px 20px rgb(0 0 0 / 15%);
+}
+
+.tes2{
+    /* height: 50px; */
+    width: 120px;
+    margin-top: -30px;
+    margin-right: -20px;
+}
+
+.code{
+    color:rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 30px;
+    position: absolute;
+    margin-left: -15px;
+}
+
+.reserved{
+    margin-bottom: -80px;
+    margin-left: -20px;
+}
+
+.reserved a{
+    color: black;
+}
+
+.ikon a{
+    visibility: hidden;
+}
+/* end footer */
+
+/* peta */
+.peta-responsive{
+    overflow:hidden;
+    padding-bottom: 900px;
+    position:relative;
+    height:0;
+}
+.peta-responsive iframe{
+    left:0;
+    top:0;
+    height:85%;
+    width:100%;
+    position: absolute;
+}
+/* end peta */
+
+/* order */
+.order{
+    margin-top: 110px; 
+    margin-bottom: 150px;
+}
+.order1{
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 20px;
+}
+.order5{
+    margin-top: 20px; 
+    display: flex;
+}
+/* end order */
+
+
+/* desktop */
+@media (min-width: 992px) { 
+    .sm1{
+        width: 80%;
+        margin-top: 100px;
+        margin-left: 0;
+        position: relative;
+        -webkit-animation: animasi 1s ease-in-out alternate infinite;
+    }
+
+    .pink{
+        position: relative;
+        -webkit-animation: animasi 1s ease-in-out alternate infinite;
+    }
+
+    .card{
+        margin-bottom: 30px;
+        margin-left:0px ;
+    }
+    
+    @-webkit-keyframes animasi{
+        from{
+            left: 0px;
+            top: 0px;
+        }
+    
+        to{
+            left: 0px;
+            top: 20px;
+        }
+    }
+
+    .ketamin{
+        width:400px !important;
+        
+    }
+    
+    .indo{
+        margin-top: 200px; 
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+        font-size: 50px; 
+        color: red;
+    }
+
+    .ind{
+        padding: 10px;
+        justify-content: center;
+        margin-left: 200px;
+    }
+
+    .buy{
+        width: 100px;
+    }
+    .jumbotron{
+        margin-top: 30px;
+    }
+    .reg{
+        margin-bottom: 10px ;
+        margin-top: 5px;
+    }
+    .foto{
+        height: 350px;
+        margin-left: 320px;
+        box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+        margin-top: 30px;
+    }
+    .icn{
+        width: 50px;
+        margin-right: 30px;
+    }
+    
+    .fitur-list li{
+        display: flex;
+        margin-bottom: 30px;
+    }
+
+    .trainer{
+        height: 700px;
+    }
+    .carousel-indicators{
+        top: 100%;
+        margin-left: 120px;
+    }
+    .carousel-control-prev-icon{
+        margin-left: -210px; 
+    }
+    .carousel-control-next-icon{
+        margin-right: -90px;
+    }
+    footer{
+        background-color: #ffffff;
+        margin-top: 30px;
+        height: 110px;
+        padding-top: 20px;
+    }
+    .tes2{
+        margin-top: 10px;
+        height: 50px;
+        width: 150px;
+    }
+    .code{
+        color:black;
+        text-transform: uppercase;
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .reserved{
+        margin-bottom: -70px;
+        margin-left: -15px;
+    }
+    .ikon a{
+        margin-left: 20px;
+        visibility: visible;
+        
+    }
+    .reserved a{
+        text-decoration: none;
+        color: black;
+    }
+    .overlay{
+        position: absolute;
+        background: #f56a6a;
+        width: 100%;
+        height: 77%;
+        top: 110px;
+        left: 0;
+        opacity: 0.7;
+        z-index: 100;
+        border-radius: 5px;
+    }
+    .adds{
+        position: relative;
+        margin-top: 0;
+    }
+    .jam{
+        z-index: 200;
+        position: absolute;
+        width: 20%;
+        left: 0;
+        margin-top: 230px;
+        margin-left: 210px;
+    }
+    /* order */
+    .order{
+        margin-top: 200px; 
+        margin-bottom: 150px;
+    }
+    .order1{
+        box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5); 
+        padding: 20px;
+        border-radius: 20px;
+    }
+    
+    /* end order */
+}
+
+/* end ddekstop */
